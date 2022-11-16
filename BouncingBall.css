@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    align-items:center;
+}
+
+#float-circle{
+
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    bottom: 50px;
+    position:absolute;
+    z-index:1;
+    border: 3px solid green;
+    right: 50%;
+
+}
+
+#floor{
+    width: 100%;
+    height: 50px;
+    background: #f06dbe;
+    bottom: 0;
+    left:0px;
+    position: absolute;
+
+  }
